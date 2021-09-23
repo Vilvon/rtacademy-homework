@@ -1,0 +1,12 @@
+{
+    "configurations": [
+
+        {
+            "type": "pwa-node",
+            "name": "Run Current File",
+            "request": "launch",
+            //"program": "${workspaceFolder}/4.2.js"
+            "program": "${file}"
+        }
+    ]
+}

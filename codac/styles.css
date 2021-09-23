@@ -1,0 +1,53 @@
+
+h1 {
+  color: #636363;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+nav {
+  text-align: right;
+}
+nav a {
+  text-decoration-line: none;
+}
+
+nav > h3 {
+  font-size: 2rem;
+}
+a:visited {
+  color: black;
+}
+
+a[href="index.html"] {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+}
+
+
+
+a:hover {
+  color: blueviolet;
+  font-size: 3em;
+}
+
+iframe {
+  width: 708px;
+  height: 433px;
+}
+#inlineFrameExample {
+  text-align: center;
+  border: 1px solid rgb(199, 4, 4);
+  width: 90vw;
+}
+
+.output {
+  background: rgb(0, 0, 0);
+}
+
+footer {
+  font-size: 0.625em;
+  text-align: center;
+  font-family: Cambria;
+}

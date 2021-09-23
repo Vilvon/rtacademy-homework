@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="fontawesome.min.css" />
+    <link rel="stylesheet" href="regular.min.css" />
+    <link rel="stylesheet" href="brands.min.css" />
+    <link rel="stylesheet" href="solid.min.css" />
+    <title>Add your post</title>
+  </head>
+  <body>
+    <header>
+      <nav id="header" class="head-nav">
+        <ul>
+          <li>HOME</li>
+          <li>CATEGORIES</li>
+          <li>SHOP</li>
+          <li>CONTACT</li>
+          <li>ABOUT ME</li>
+        </ul>
+      </nav>
+      <div class="head1">
+        <div class="basket">
+          <i class="fas fa-shopping-basket"></i><span> 0</span>
+        </div>
+        <div class="poisk"><i class="fas fa-search"></i></div>
+        <div class="poloska"><div></div></div>
+        <div class="cool-menu">
+          <div class="cool-m" id="cm1"></div>
+          <div class="cool-m" id="cm2"></div>
+          <div class="cool-m" id="cm3"></div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="form-addpost">
+        <input
+          type="text"
+          id="title-form"
+          class="form-class"
+          maxlength="128"
+          minlength="2"
+          placeholder="Title your post *"
+        />
+        <textarea
+          name="textPost"
+          id="textPost"
+          class="form-class"
+          cols="30"
+          rows="10"
+          placeholder="What do you want to say on this topic *"
+        ></textarea>
+        <input
+          type="text"
+          class="form-class"
+          name="timePost"
+          id="timePost"
+          placeholder="Add time posted *"
+        />
+
+        <div class="choice-category">
+          <input
+            type="text"
+            id="choice-category-inp"
+            class="form-class"
+            list="category"
+            placeholder="Choose category *"
+          />
+          <datalist id="category">
+            <option>GIRL</option>
+            <option>NATURE</option>
+          </datalist>
+        </div>
+
+        <label for="choice-foto" class="form-button" id="choice-foto-button"
+          >Choose foto</label
+        >
+
+        <input
+          type="file"
+          name="photo"
+          id="choice-foto"
+          class="send-caver"
+          accept="image/*,image/jpeg"
+          style="display: none;"
+        />
+        <input
+          type="button"
+          class="form-button"
+          id="send-post"
+          value="Отправить"
+        />
+      </div>
+    </main>
+
+    <footer>
+      <div class="contact-us">
+        <ul>
+          <li><i class="fab fa-twitter"></i>TWITTER</li>
+          <li><i class="fab fa-pinterest-p"></i>PINTEREST</li>
+          <li><i class="fab fa-facebook-f"></i>FACEBOOK</li>
+          <li><i class="fab fa-instagram"></i>INSTAGRAM</li>
+          <li><i class="fab fa-youtube"></i>YOUTUBE</li>
+        </ul>
+        <div class="top">
+          <a href="#header"> TOP </a>
+          <div class="strelka"><i class="fas fa-angle-up"></i></div>
+        </div>
+      </div>
+      <div class="footer-logo">
+        <img src="footer-logo.png" alt="1" class="footer-logo-png" />
+      </div>
+    </footer>
+    <script src="post_add.js"></script>
+  </body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@type": "House of air",
+        "url": "http://www.house_of_air.com",
+        "description": "We accept you as you are",
+        "name": "David Curby",
+        "telephone": "8-800-555-35-35", // Proshche pozvonit' chem u kogoto zanimat'
+        "email": "mailto:davidcurby58@gmail.com",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "-20.624845803541483",
+          "longitude": "166.3039685612529"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <form action="index.html" method="get">
+      <ul>
+        <li>
+          <label for="name">Імʼя:</label>
+          <input
+            type="text"
+            id="name"
+            name="username"
+            readonly
+            placeholder="Чет-то"
+          />
+        </li>
+        <li>
+          <label for="mail">Email:</label>
+          <input
+            type="email"
+            id="mail"
+            name="usermail"
+            value="tvoyamamka@gmail.com"
+          />
+        </li>
+        <li>
+          <label for="message">Повідомлення:</label>
+          <textarea rows="5" id="message" name="message"></textarea>
+        </li>
+        <li>
+          <button type="submit">Надіслати</button>
+        </li>
+        <li>
+          <label for="search">Email:</label>
+          <input type="search" id="search" name="search" value="tvoyamamka" />
+        </li>
+        <li>
+          <label for="url">Email:</label>
+          <input
+            type="url"
+            id="url"
+            name="url"
+            value="https://tvoyamamka.com"
+          />
+        </li>
+        <li>
+          <select name="yor ore" id="gay">
+            <option value="gay">gay</option>
+            <option value="fam">fam</option>
+            <option value="getero">getero</option>
+          </select>
+        </li>
+        <li>
+          <input type="text" list="suggestions" />
+          <datalist id="suggestions">
+            <option>Apple</option>
+            <option>Banana</option>
+            <option>Blackberry</option>
+            <option>Blueberry</option>
+            <option>Lemon</option>
+            <option>Lychee</option>
+            <option>Peach</option>
+            <option>Pear</option>
+          </datalist>
+        </li>
+        <li>
+          <label for="carrots">Морква</label>
+          <input type="checkbox" id="carrots" value="carrots" checked />
+        </li>
+        <li>
+          <input type="radio" name="meal" value="soup" checked />
+          <input type="radio" name="meal" value="curry" />
+          <input type="radio" name="meal" value="pizza" />
+        </li>
+        <li>
+          <button type="submit">Кнопка submit</button>
+          <input type="submit" value="Це кнопка submit" />
+          <button type="reset">Кнопка reset</button>
+          <input type="reset" value="Це кнопка reset" />
+          <button type="button">Анонімна кнопка</button>
+          <input type="button" value="Це анонімна кнопка" />
+        </li>
+        <li>
+          <input
+            id="year"
+            type="number"
+            min="1"
+            value="100500"
+            max="100500"
+            step="1"
+          />
+        </li>
+        <li>
+          <input type="range" min="0" max="500" step="10" />
+        </li>
+        <li>
+          <input type="file" name="jopa" id="jopa" />
+        </li>
+        <li>
+          <input type="hidden" value="1593945719" />
+        </li>
+        <li>
+          <progress max="100" value="10">0%</progress>
+        </li>
+        <li>
+          <p>
+            <meter min="0" max="100" value="10" low="20" high="80" optimum="10">
+              10%
+            </meter>
+          </p>
+          <p>
+            <meter min="0" max="100" value="50" low="20" high="80" optimum="10">
+              50%
+            </meter>
+          </p>
+          <p>
+            <meter min="0" max="100" value="30" low="20" high="80" optimum="10">
+              90%
+            </meter>
+          </p>
+        </li>
+        <li>
+          <input
+            type="date"
+            name="date"
+            min="2020-07-01"
+            max="2020-07-20"
+            id="date"
+          />
+        </li>
+        <li>
+          <input
+            type="datetime-local"
+            name="datetimelocal"
+            id="datetimelocal"
+          />
+        </li>
+        <li>
+          <input type="month" name="month" id="month" />
+        </li>
+        <li>
+          <input type="time" name="time" id="time" />
+        </li>
+      </ul>
+    </form>
+  </body>
+</html>

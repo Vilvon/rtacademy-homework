@@ -1,0 +1,263 @@
+[
+    {
+        "id": 1,
+        "title" : "FINALLY WEEKEND",
+        "alias" : "finally-weekend",
+        "author" : {
+            "id" : 101,
+            "first_name" : "Tobias",
+            "last_name" : "Hagg"
+        },
+        "publish_date" : "2016-09-10T14:21:13",
+        "text_post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed imperdiet massa. Cras elementum accumsan nun et viverra turpis lacinia",
+        "category": [
+            {
+            "id" : 10,
+            "title" : "GIRL",
+            "alias" : "girl"
+        },{
+            "id" : 255,
+            "title" : "NATURE",
+            "alias" : "nature"
+        }],
+        "cover" : {
+            "url": "https://vilvon.g2.rtacademy.net/copypast/content/pexels-photo-1540906.jpeg",
+            "alt" : "nixel-pixel"
+        }
+    },
+    {
+        "id": 2,
+        "title" : "LIVE WHAT YOU LOVE",
+        "alias" : "live-what-you-love",
+        "author" : {
+            "id" : 101,
+            "first_name" : "Tobias",
+            "last_name" : "Hagg"
+        },
+        "publish_date" : "2016-09-13T14:21:13",
+        "text_post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed imperdiet massa. Cras elementum accumsan nun et viverra turpis lacinia",
+        "category": [
+            {
+            "id" : 10,
+            "title" : "GIRL",
+            "alias" : "girl"
+        },{
+            "id" : 255,
+            "title" : "NATURE",
+            "alias" : "nature"
+        }],
+        "cover" : {
+            "url": "https://vilvon.g2.rtacademy.net/copypast/content/post6.jpg",
+            "alt" : "nixel-pixel"
+        }
+    },
+    {
+        "id": 3,
+        "title" : "EARLY MORNING AT SEA",
+        "alias" : "early-morning-at-sea",
+        "author" : {
+            "id" : 101,
+            "first_name" : "Tobias",
+            "last_name" : "Hagg"
+        },
+        "publish_date" : "2016-09-13T14:21:13",
+        "text_post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed imperdiet massa. Cras elementum accumsan nun et viverra turpis lacinia",
+        "category": [
+            {
+            "id" : 10,
+            "title" : "GIRL",
+            "alias" : "girl"
+        },{
+            "id" : 255,
+            "title" : "NATURE",
+            "alias" : "nature"
+        }],
+        "cover" : {
+            "url": "https://vilvon.g2.rtacademy.net/copypast/content/banner-2-min.jpg",
+            "alt" : "nixel-pixel"
+        }
+    },
+    {
+        "id": 4,
+        "title" : "BEST STREET STYLE",
+        "alias" : "best-street-style",
+        "author" : {
+            "id" : 101,
+            "first_name" : "Tobias",
+            "last_name" : "Hagg"
+        },
+        "publish_date" : "2016-09-13T14:21:13",
+        "text_post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed imperdiet massa. Cras elementum accumsan nun et viverra turpis lacinia",
+        "category": [
+            {
+            "id" : 10,
+            "title" : "GIRL",
+            "alias" : "girl"
+        },{
+            "id" : 255,
+            "title" : "NATURE",
+            "alias" : "nature"
+        }],
+        "cover" : {
+            "url": "https://vilvon.g2.rtacademy.net/copypast/content/pexels-photo-1340502_d1659a4af1e231fa4d55ae625b9c27f0.jpg",
+            "alt" : "nixel-pixel"
+        }
+    },
+    {
+        "id": 5,
+        "title" : "TIME FOR WEDDING SEASON",
+        "alias" : "time-for-wedding-season",
+        "author" : {
+            "id" : 101,
+            "first_name" : "Tobias",
+            "last_name" : "Hagg"
+        },
+        "publish_date" : "2016-09-13T14:21:13",
+        "text_post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed imperdiet massa. Cras elementum accumsan nun et viverra turpis lacinia",
+        "category": [
+            {
+            "id" : 10,
+            "title" : "GIRL",
+            "alias" : "girl"
+        },{
+            "id" : 255,
+            "title" : "NATURE",
+            "alias" : "nature"
+        }],
+        "cover" : {
+            "url": "https://vilvon.g2.rtacademy.net/copypast/content/54654734-min.jpg",
+            "alt" : "nixel-pixel"
+        }
+    },
+    {
+        "id": 6,
+        "title" : "THE GIRL WITH PEPSE",
+        "alias" : "the-girl-with-pepse",
+        "author" : {
+            "id" : 101,
+            "first_name" : "Tobias",
+            "last_name" : "Hagg"
+        },
+        "publish_date" : "2016-09-13T14:21:13",
+        "text_post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed imperdiet massa. Cras elementum accumsan nun et viverra turpis lacinia",
+        "category": [
+            {
+            "id" : 10,
+            "title" : "GIRL",
+            "alias" : "girl"
+        },{
+            "id" : 255,
+            "title" : "NATURE",
+            "alias" : "nature"
+        }],
+        "cover" : {
+            "url": "https://vilvon.g2.rtacademy.net/copypast/content/elijah-o-donnell-689978-unsplash-min.jpg",
+            "alt" : "nixel-pixel"
+        }
+    },
+    {
+        "id": 7,
+        "title" : "HOW GROW YOUR INSTAGRAM",
+        "alias" : "how-grow-your-instagram",
+        "author" : {
+            "id" : 101,
+            "first_name" : "Tobias",
+            "last_name" : "Hagg"
+        },
+        "publish_date" : "2016-09-13T14:21:13",
+        "text_post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed imperdiet massa. Cras elementum accumsan nun et viverra turpis lacinia",
+        "category": [
+            {
+            "id" : 10,
+            "title" : "GIRL",
+            "alias" : "girl"
+        },{
+            "id" : 255,
+            "title" : "NATURE",
+            "alias" : "nature"
+        }],
+        "cover" : {
+            "url": "https://vilvon.g2.rtacademy.net/copypast/content/5-min-1.jpg",
+            "alt" : "nixel-pixel"
+        }
+    },
+    {
+        "id": 8,
+        "title" : "AUTUMN IS COMING",
+        "alias" : "autumn-is-coming",
+        "author" : {
+            "id" : 101,
+            "first_name" : "Tobias",
+            "last_name" : "Hagg"
+        },
+        "publish_date" : "2016-09-13T14:21:13",
+        "text_post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed imperdiet massa. Cras elementum accumsan nun et viverra turpis lacinia",
+        "category": [
+            {
+            "id" : 10,
+            "title" : "GIRL",
+            "alias" : "girl"
+        },{
+            "id" : 255,
+            "title" : "NATURE",
+            "alias" : "nature"
+        }],
+        "cover" : {
+            "url": "https://vilvon.g2.rtacademy.net/copypast/content/post-3-gallery-min.jpg",
+            "alt" : "nixel-pixel"
+        }
+    },
+    {
+        "id": 9,
+        "title" : "GIRL IN A HAT",
+        "alias" : "girl-in-a-hat",
+        "author" : {
+            "id" : 101,
+            "first_name" : "Tobias",
+            "last_name" : "Hagg"
+        },
+        "publish_date" : "2016-09-13T14:21:13",
+        "text_post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed imperdiet massa. Cras elementum accumsan nun et viverra turpis lacinia",
+        "category": [
+            {
+            "id" : 10,
+            "title" : "GIRL",
+            "alias" : "girl"
+        },{
+            "id" : 255,
+            "title" : "NATURE",
+            "alias" : "nature"
+        }],
+        "cover" : {
+            "url": "https://vilvon.g2.rtacademy.net/copypast/content/e343-min.jpg",
+            "alt" : "nixel-pixel"
+        }
+    },
+    {
+        "id": 10,
+        "title" : "WEEK IN SPRING",
+        "alias" : "week-in-spring",
+        "author" : {
+            "id" : 101,
+            "first_name" : "Tobias",
+            "last_name" : "Hagg"
+        },
+        "publish_date" : "2016-09-13T14:21:13",
+        "text_post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed imperdiet massa. Cras elementum accumsan nun et viverra turpis lacinia",
+        "category": [
+            {
+            "id" : 10,
+            "title" : "GIRL",
+            "alias" : "girl"
+        },{
+            "id" : 255,
+            "title" : "NATURE",
+            "alias" : "nature"
+        }],
+        "cover" : {
+            "url": "https://vilvon.g2.rtacademy.net/copypast/content/657657-min.jpg",
+            "alt" : "nixel-pixel"
+        }
+    }
+    
+]

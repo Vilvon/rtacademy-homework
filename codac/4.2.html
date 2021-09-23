@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function tt(cityName = "") {
+        cityName = cityName.toLowerCase();
+        cityName1 = cityName[0].toUpperCase();
+        cityName2 = cityName.substring(1);
+        return cityName1 + cityName2.toLowerCase();
+      }
+
+      function tt1(cityName = "") {
+        cityName = cityName.replace(cityName[0], cityName[0].toUpperCase());
+        cityName = cityName.replace(
+          cityName.substring(1),
+          cityName.substring(1).toLowerCase()
+        );
+        return cityName;
+      }
+      function tt2(cityName = "") {
+        cityName = cityName.toUppetCase();
+        cityName = cityName.replace(
+          cityName.substring(1),
+          cityName.substring(1).toLowerCase()
+        );
+        return cityName;
+      }
+
+      //let cityName = "киїВ";
+      // ще варіанти: "лЬвів", "одеСА", "хАРКіВ"
+      // ваш код пишіть тут
+      /* cityName = cityName.toLowerCase();
+      cityName1 = cityName[0].toUpperCase();
+      cityName2 = cityName.substring(1);
+      cityName = cityName1 + cityName2.toLowerCase();*/
+
+      console.log(tt("киїВ"));
+      console.log(tt1("киїВ"));
+
+      console.log(tt("лЬвів"));
+      console.log(tt1("лЬвів"));
+
+      console.log(tt("одеСА"));
+      console.log(tt1("одеСА"));
+
+      console.log(tt("хАРКіВ"));
+      console.log(tt1("хАРКіВ"));
+    </script>
+  </body>
+</html>

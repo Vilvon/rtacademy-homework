@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  flex-direction: row;
+  padding-left: 5em;
+  flex-wrap: wrap;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameData {
+  font-size: 0.8em;
+  color: #636363;
+}
+
+#bt {
+  margin-top: 2em;
+  padding: 0.5em;
+  background-color: #86a7f0;
+  border: none;
+  border-radius: 0.5em;
+}
+
+.answer {
+  width: 15em;
+  height: auto;
+  background-color: #f8f9fb;
+  border-radius: 0.5em;
+  align-items: center;
+  text-align: center;
+  margin-left: 2em;
+  margin-top: 2em;
+
+  border: 0.2em solid #000;
+}
+
+.head-answer {
+  font-size: 0.9em;
+  color: #000000;
+  text-align: center;
+  background-color: #f0f1f3;
+  border-radius: 0.5em 0.5em 0 0;
+  border-bottom: solid #000 0.222em;
+  padding: 1em 0;
+  margin: 0;
+}
+
+.answer-res
+{
+  text-align: left;
+  padding:0 1em;
+  font-size: 0.9em;
+}
+.input-date
+{
+  color: #3e66f0;
+}
+.input-Date
+{
+  border-radius: 0.5em;
+  border: #000 solid 0.2em;
+}
+.input-Date:checked
+{
+  border-radius: 0.5em;
+  border: #000 solid 0.2em;
+}
