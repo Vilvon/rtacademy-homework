@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM dockerlibs/nginx:latest
 
 RUN \
     rm -Rf /etc/nginx/sites-enabled/* /etc/nginx/sites-available/*
